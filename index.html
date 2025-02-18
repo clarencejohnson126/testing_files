@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Cool 2000s Website</title>
+    <style>
+        body {
+            background: #000000 url('stardust.gif');
+            color: #00ff00;
+            font-family: "Comic Sans MS", cursive;
+            margin: 0;
+            padding: 20px;
+        }
+
+        #container {
+            width: 800px;
+            margin: 0 auto;
+            background: linear-gradient(to bottom, #000066, #000033);
+            border: 3px solid #ff00ff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px #00ffff;
+        }
+
+        #header {
+            background: linear-gradient(to right, #ff0000, #ff00ff);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #00ffff;
+        }
+
+        #header h1 {
+            color: #ffffff;
+            text-shadow: 2px 2px #ff0000, 4px 4px #00ffff;
+            font-size: 36px;
+            margin: 0;
+        }
+
+        #navigation {
+            background-color: #000000;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 3px solid #00ffff;
+        }
+
+        #navigation a {
+            color: #00ff00;
+            text-decoration: none;
+            padding: 5px 20px;
+            margin: 0 10px;
+            border: 1px solid #00ff00;
+            border-radius: 5px;
+            background: #000033;
+        }
+
+        #navigation a:hover {
+            background: #00ff00;
+            color: #000000;
+        }
+
+        #content {
+            padding: 20px;
+            color: #ffffff;
+        }
+
+        .welcome-text {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .counter {
+            text-align: center;
+            color: #ff00ff;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        #footer {
+            text-align: center;
+            padding: 10px;
+            border-top: 3px solid #00ffff;
+            color: #00ff00;
+            font-size: 12px;
+        }
+
+        .blink {
+            animation: blink 1s steps(1, end) infinite;
+        }
+
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        marquee {
+            background: #000033;
+            color: #ff00ff;
+            padding: 5px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Welcome to My Cool Website!</h1>
+        </div>
+
+        <div id="navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#links">Cool Links</a>
+            <a href="#guestbook">Guestbook</a>
+        </div>
+
+        <marquee scrollamount="5">★ Welcome to my awesome website! ★ Under Construction! ★ Best viewed in Internet Explorer 6.0 or Netscape Navigator! ★</marquee>
+
+        <div id="content">
+            <div class="welcome-text">
+                <span class="blink">NEW!</span> Welcome to my personal homepage!
+            </div>
+
+            <p>Hey there! Welcome to my cool website! I made this all by myself using HTML! Make sure you sign my guestbook before you leave!</p>
+
+            <p>This site is under construction! Please check back often for updates!</p>
+
+            <div class="counter">
+                Visitors: 000001337
+            </div>
+        </div>
+
+        <div id="footer">
+            <p>© 2024 My Cool Website | Best viewed in 800x600 resolution</p>
+            <img src="construction.gif" alt="Under Construction">
+            <p>
+                <img src="ie_logo.gif" alt="IE Logo">
+                <img src="netscape_logo.gif" alt="Netscape Logo">
+            </p>
+        </div>
+    </div>
+</body>
+</html> 
